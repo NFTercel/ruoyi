@@ -12,7 +12,7 @@ ruoyi:
   profile: D:/ruoyi/uploadPath
   # 获取ip地址开关
   addressEnabled: false
-  captchaEnabled: true
+#  captchaEnabled: true
   # 验证码类型 math 数组计算 char 字符验证
   captchaType: math
 
@@ -60,7 +60,7 @@ spring:
   # redis 配置
   redis:
     # 地址
-    host: 172.16.45.130
+    host: 25.25.205.176
     # 端口，默认为6379
     port: 6379
     # 密码
@@ -102,6 +102,7 @@ pagehelper:
   reasonable: true
   supportMethodsArguments: true
   params: count=countSql 
+
 
 # Swagger配置
 swagger:
